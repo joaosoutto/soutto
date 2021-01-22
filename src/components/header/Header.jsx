@@ -16,13 +16,13 @@ const Header = () => {
 
       <div className={styles.navDiv2}>
         <NavLink to="/about" className={styles.linkB} activeClassName={styles.active}>
-          About
+          Sobre
         </NavLink>
         <NavLink to="/portfolio" className={styles.linkB} activeClassName={styles.active}>
-         Projects
+         Projetos
         </NavLink>
         <NavLink to="/contact" className={styles.linkB} activeClassName={styles.active}>
-         Contact
+         Contato
         </NavLink>
       </div>
     </header>

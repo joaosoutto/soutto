@@ -5,7 +5,7 @@ const Home = () => {
   return (
     <section className={styles.container}>
       <div className={`${styles.port} animeLeft`}>
-        <h1>My</h1>
+        <h1>Meu</h1>
         <h1>Portfolio</h1>
       </div>
       <div className={`${styles.stacks} animeLeft`}>
