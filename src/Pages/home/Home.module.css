@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500&display=swap');
+
+.container {
+  align-items: flex-start;
+  background-image: url('../../assets/bg1.png');
+  background-position-x: right;
+  background-position-y: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 80vh;
+  padding: 3rem 0 3rem 10rem;
+  width: 100%;
+}
+
+.port {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.port h1 {
+  font-family: 'Cinzel', serif;
+  font-size: 10rem;
+  letter-spacing: 1rem;
+  line-height: 1;
+}
+
+.stacks {
+  border-left: 3px solid rgb(30, 30, 30);
+  margin-top: 4rem;
+  padding: 1rem 0 1rem 1rem;
+}
+
+.stack {
+  line-height: 2;
+  letter-spacing: 0.5rem;
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+@media (max-width: 40rem) {
+  .container {
+    align-items: center;
+    background-position: center;
+    height: auto;
+    padding: 0;
+    width: 100%;
+  }
+  .port {
+    align-items: center;
+    margin-top: 3rem;
+    width: 90%;
+  }
+  .port h1 {
+    font-size: 2.5rem;
+    letter-spacing: 0.1rem;
+  }
+  .stacks {
+    width: 90%;
+  }
+  .stack {
+    font-size: 1rem;
+  }
+}
