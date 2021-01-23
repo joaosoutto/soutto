@@ -42,7 +42,7 @@ const About = () => {
           e aqui, nesse site, você pode acompanhar meu crescimento e visualizar
           meus projetos desenvolvidos desde que comecei a mergulhar nessa área!
           Espero que você goste e não se esqueça de entrar em contato! Quem sabe
-          não criamos algo surpreendente juntos?
+          não criamos algo surpreendente juntos?!
         </p>
       </div>
     </section>
