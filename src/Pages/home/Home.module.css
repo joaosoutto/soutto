@@ -3,10 +3,10 @@
 .container {
   align-items: flex-start;
   background-image: url('../../assets/bg1.png');
-  background-position-x: right;
-  background-position-y: center;
+  background-position-x: 105%;
+  background-position-y: top;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 95%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -23,14 +23,14 @@
 
 .port h1 {
   font-family: 'Cinzel', serif;
-  font-size: 10rem;
+  font-size: 9rem;
   letter-spacing: 1rem;
   line-height: 1;
 }
 
 .stacks {
   border-left: 3px solid rgb(30, 30, 30);
-  margin-top: 4rem;
+  margin-top: 6rem;
   padding: 1rem 0 1rem 1rem;
 }
 
@@ -45,23 +45,41 @@
   .container {
     align-items: center;
     background-position: center;
+    background-size: cover;
     height: auto;
     padding: 0;
     width: 100%;
   }
   .port {
     align-items: center;
-    margin-top: 3rem;
+    margin-top: 2rem;
     width: 90%;
   }
   .port h1 {
     font-size: 2.5rem;
-    letter-spacing: 0.1rem;
+    letter-spacing: 0.4rem;
+    margin-bottom: .5rem;
   }
   .stacks {
     width: 90%;
+    border-left: 1px solid rgb(30, 30, 30);
+    margin-top: 3rem;
   }
   .stack {
     font-size: 1rem;
   }
 }
+
+/* @media (min-width: 1441px) {
+  .container {
+    background-size: 90%;
+    background-position-x: 90%;
+    height: 89vh;
+  }
+  .port h1 {
+    font-size: 13rem;
+  }
+  .stack {
+    font-size: 1.5rem;
+  }
+} */
