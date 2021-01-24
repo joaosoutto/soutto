@@ -1,0 +1,72 @@
+.container {
+  align-items: center;
+  background-image: url('../../assets/gh.png');
+  background-position: 95%;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  padding-left: 8rem;
+}
+
+.right {
+  margin-top: 8rem;
+}
+
+.right h1 {
+  font-size: 5rem;
+  margin-bottom: 1rem;
+}
+
+.right h3 {
+  font-size: 3rem;
+  letter-spacing: 0.2rem;
+}
+
+.social {
+  border-left: 3px solid rgb(30, 30, 30);
+  display: flex;
+  flex-direction: column;
+  margin-top: 7rem;
+  padding: 1.5rem 0;
+}
+
+.social a {
+  align-items: center;
+  display: flex;
+  font-size: 2rem;
+  margin: 1rem;
+}
+
+.social a span {
+  margin-left: 1.5rem;
+}
+
+@media (max-width: 40rem) {
+  .container {
+    background-image: none;
+    padding: 0;
+  }
+  .right {
+    margin-top: 4rem;
+    text-align: center;
+  }
+  .right h1 {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  .right h3 {
+    font-size: 1.2rem;
+  }
+  .social {
+    border-top: 1px solid rgb(150, 150, 150);
+    border-left: none;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 4rem;
+    padding: 0.5rem 0;
+    width: 100%;
+  }
+  .social a span {
+    display: none;
+  }
+}

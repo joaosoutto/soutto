@@ -39,7 +39,7 @@ const About = () => {
 
         <p>
           Desde então, tenho o intuito de me tornar um desenvolvedor full stack
-          e aqui, nesse site, você pode acompanhar meu crescimento e visualizar
+          e nesse portfolio você pode acompanhar meu crescimento e visualizar
           meus projetos desenvolvidos desde que comecei a mergulhar nessa área!
           Espero que você goste e não se esqueça de entrar em contato! Quem sabe
           não criamos algo surpreendente juntos?!
