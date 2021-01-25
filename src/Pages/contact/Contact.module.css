@@ -1,7 +1,7 @@
 .container {
   align-items: flex-start;
   background-image: url('../../assets/gh.png');
-  background-position-x: 85%;
+  background-position-x: 90%;
   background-position-y: bottom;
   background-repeat: no-repeat;
   display: flex;
@@ -76,7 +76,7 @@
   }
 }
 
-/* @media (min-width: 1450px) {
+@media (min-width: 1900px) {
     .container {
       background-size: 25%;
       background-position-x: 80%;
@@ -95,4 +95,4 @@
     .social a span {
         font-size: 3rem;
     }
-  } */
+  }

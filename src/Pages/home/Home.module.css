@@ -19,6 +19,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin-top: 2rem;
 }
 
 .port h1 {
@@ -30,7 +31,7 @@
 
 .stacks {
   border-left: 3px solid rgb(30, 30, 30);
-  margin-top: 6rem;
+  margin-top: 4rem;
   padding: 1rem 0 1rem 1rem;
 }
 
@@ -70,7 +71,7 @@
   }
 }
 
-/* @media (min-width: 1441px) {
+@media (min-width: 1900px) {
   .container {
     background-size: 90%;
     background-position-x: 90%;
@@ -82,4 +83,4 @@
   .stack {
     font-size: 1.5rem;
   }
-} */
+}
