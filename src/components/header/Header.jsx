@@ -18,7 +18,7 @@ const Header = () => {
         <NavLink to="/about" className={styles.linkB} activeClassName={styles.active}>
           Sobre
         </NavLink>
-        <NavLink to="/portfolio" className={styles.linkB} activeClassName={styles.active}>
+        <NavLink to="/projects" className={styles.linkB} activeClassName={styles.active}>
          Projetos
         </NavLink>
         <NavLink to="/contact" className={styles.linkB} activeClassName={styles.active}>

@@ -1,0 +1,15 @@
+.container {
+  display: grid;
+  gap: 4rem 4rem;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 5rem;
+}
+
+@media (max-width: 40rem) {
+  .container {
+    gap: 2rem;
+    grid-template-columns: 1fr;
+    padding: 1rem;
+    padding-top: 4rem;
+  }
+}
