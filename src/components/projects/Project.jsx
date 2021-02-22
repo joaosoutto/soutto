@@ -10,20 +10,14 @@ const Project = ({ name, src, ghrepo, linkTo }) => {
       <div className={styles.middle}>
         <div className={styles.text}>
           <div className={styles.infos}>
-            <h1>{name}</h1>
+            <h3>{name}</h3>
           </div>
           <div className={styles.links}>
             <a href={ghrepo} target="_blank">
-              Ir para GittHub
-              <span>
-                <GHIco />
-              </span>
+              <GHIco />
             </a>
             <a href={linkTo} target="_blank">
-              Ir para projeto
-              <span>
-                <EXIco />
-              </span>
+              <EXIco />
             </a>
           </div>
         </div>

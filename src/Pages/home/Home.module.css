@@ -24,7 +24,7 @@
 
 .port h1 {
   font-family: 'Cinzel', serif;
-  font-size: 9rem;
+  font-size: 7rem;
   letter-spacing: 1rem;
   line-height: 1;
 }
@@ -78,7 +78,7 @@
     height: 89vh;
   }
   .port h1 {
-    font-size: 13rem;
+    font-size: 9rem;
   }
   .stack {
     font-size: 1.5rem;
