@@ -1,11 +1,9 @@
-import React from 'react';
-import styles from './About.module.css';
-import me from '../../assets/me.png';
+import React from "react";
+import styles from "./About.module.css";
+import me from "../../assets/me.png";
 // import Header from '../../components/Header/Header';
 
 const About = () => {
-  const name = localStorage.getItem('nome');
-
   return (
     <section className={`${styles.container} animeLeft`}>
       <div className={styles.left}>
@@ -24,7 +22,7 @@ const About = () => {
         <br />
 
         <p>
-          Sem saber ao certo como começar a estudar, conheci a{' '}
+          Sem saber ao certo como começar a estudar, conheci a{" "}
           <a
             className={styles.trybe}
             href="https://betrybe.com"
